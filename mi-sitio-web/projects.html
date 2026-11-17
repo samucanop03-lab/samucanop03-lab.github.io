@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyectos de desarrollo web de Samuel: una app de fútbol, una tienda y un organizador de tareas.">
+    <title>Proyectos - Mi Sitio Web Personal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Mi Portafolio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="projects.html" class="active" aria-current="page">Proyectos</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" id="mobile-menu" type="button" aria-label="Abrir menú de navegación">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="projects-intro">
+            <span class="contact-tag">✦ IDEAS EN ACCIÓN ✦</span>
+            <h2>Mis <span class="highlight">proyectos</span></h2>
+            <p>Una selección de ideas para crear experiencias digitales útiles, atractivas y fáciles de usar.</p>
+        </section>
+
+        <section class="featured-projects projects-page" aria-label="Lista de proyectos">
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image project-preview cancha-preview">
+                        <img class="project-logo" src="img/img/canchaPro.png" alt="Balón del proyecto CanchaPro">
+                        <span class="preview-label">CANCHAPRO</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Deportes · Aplicación web</span>
+                        <h3>CanchaPro</h3>
+                        <p>Una app para organizar partidos de fútbol, buscar personas para jugar y reservar canchas.</p>
+                        <ul class="project-tags" aria-label="Tecnologías">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <a href="contact.html" class="btn small">Hablemos de esta idea</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image project-preview tienda-preview">
+                        <img class="project-logo" src="img/img/Lo%20valioso.png" alt="Joyería de Lo Valioso">
+                        <span class="preview-label">LO VALIOSO</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Comercio · Tienda en línea</span>
+                        <h3>Joyería Lo Valioso</h3>
+                        <p>Una tienda de joyas donde puedes encontrar una variedad de accesorios bañados en oro y plata de diferentes tipos y calidades.</p>
+                        <ul class="project-tags" aria-label="Tecnologías">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Diseño adaptable</li>
+                        </ul>
+                        <a href="contact.html" class="btn small">Hablemos de esta idea</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image project-preview focus-preview">
+                        <img class="project-logo" src="img/img/FOCUSYOURSELF.png" alt="Ilustración del proyecto FocusYourself">
+                        <span class="preview-label">FOCUSYOURSELF</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Productividad · Organizador</span>
+                        <h3>FocusYourself</h3>
+                        <p>Un organizador personal para anotar tareas, establecer prioridades y mantener el enfoque durante el día.</p>
+                        <ul class="project-tags" aria-label="Tecnologías">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <a href="contact.html" class="btn small">Hablemos de esta idea</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="projects-contact">
+            <h2>¿Tienes una idea para crear juntos?</h2>
+            <p>Cuéntame qué tienes en mente y podemos convertirlo en un proyecto web.</p>
+            <a href="contact.html" class="btn primary">Contactar</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>samucanop03@gmail.com</p>
+                <p>+315 556 8762</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Acerca de</a></li>
+                    <li><a href="projects.html">Proyectos</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Sígueme</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/07_sxcano/" class="social-icon" aria-label="Instagram de Samuel" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <circle class="social-icon-dot" cx="17.5" cy="6.5" r="1"></circle>
+                        </svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@wzscano" class="social-icon" aria-label="TikTok de Samuel" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M14 4v11.5a3.5 3.5 0 1 1-2-3.16V9a6 6 0 1 0 4 5.66V8.5c1.5 1.2 3.3 1.9 5 2V7.8c-2.7-.2-4.8-1.8-5.4-3.8H14z"></path>
+                            </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Samuel. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
